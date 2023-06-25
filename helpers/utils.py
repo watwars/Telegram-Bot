@@ -11,8 +11,6 @@ def format_date(time_stamp):
 def get_user_name(message):
     user_name = message["from"]["first_name"] + \
         " " + message["from"]["last_name"]
-    if user_name == 'Kevin Shen':
-        user_name = 'Kevin Piwa Shen'
     return user_name
 
 
